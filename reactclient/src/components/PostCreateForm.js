@@ -4,7 +4,7 @@ import Constants from '../utilities/Constants'
 export default function PostCreateForm(props) {
     const initialFormData = Object.freeze({
         title: "Post x",
-        content: "This is post x and it has some very interesting content. I have also liked the video and subscribed."
+        content: "This is post x and it has some very interesting content."
     });
 
     const [formData, setFormData] = useState(initialFormData);
